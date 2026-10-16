@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="760" viewBox="0 0 720 760" fill="none">
+  <defs>
+    <clipPath id="arch"><path d="M42 700V329a318 318 0 0 1 636 0v371Z"/></clipPath>
+    <linearGradient id="sky" x1="360" y1="60" x2="360" y2="670" gradientUnits="userSpaceOnUse"><stop stop-color="#e9e0d0"/><stop offset="1" stop-color="#f4efe5"/></linearGradient>
+    <pattern id="fine" width="10" height="10" patternUnits="userSpaceOnUse"><path d="m0 10 10-10" stroke="#a29379" stroke-width=".4" opacity=".16"/></pattern>
+    <pattern id="windows" width="24" height="34" patternUnits="userSpaceOnUse"><path d="M4 5h11v19H4z" fill="#6d7568" opacity=".32"/><path d="M4 5v19h11" stroke="#5d6657" stroke-width=".8"/></pattern>
+    <pattern id="glass" width="36" height="40" patternUnits="userSpaceOnUse"><path d="M0 0h36v40H0z" fill="#b9bca9"/><path d="M0 0h36v40H0z" stroke="#78816e" stroke-width="1.2"/><path d="M5 4v32" stroke="#d7d9cb" stroke-width="2"/></pattern>
+  </defs>
+  <g clip-path="url(#arch)">
+    <path d="M0 0h720v760H0z" fill="url(#sky)"/>
+    <circle cx="493" cy="200" r="98" fill="#ce9475" opacity=".76"/>
+    <path d="M-10 393c94-90 184-72 288-42 112 34 251-70 444-20v263H-10Z" fill="#d5d5bd"/>
+    <path d="M-10 441c177-99 275-30 392-28 116 2 201-62 340-19v226H-10Z" fill="#bfc3a8"/>
+    <g stroke="#8b907b" stroke-width="1" opacity=".4"><path d="m0 446 720 60M-20 466l740 55M0 488l720 46M0 513l720 35"/></g>
+    <g stroke="#aaa28d" stroke-width="1.4" opacity=".55">
+      <path d="M20 388v-81h41v73m-41-73 12-10h41v81m-12-71 12-10M79 387V280h52v121m-52-121 15-11h52v122m-15-111 15-11M154 401V323h55v75m-55-75 14-9h55v85"/>
+      <path d="M563 392v-99h45v103m-45-103 15-9h45v113m-15-104 15-9M638 407V306h58v109m-58-109 14-10h58v130"/>
+    </g>
+    <!-- A crane connects the early stages of a site with the completed built environment. -->
+    <g stroke="#9e795d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M294 373V151h12v222m-12-200 12 15-12 16 12 15-12 16 12 15-12 16 12 15-12 16 12 15-12 16 12 15-12 16"/>
+      <path d="M232 151h228l-40-16H276l-44 16Zm0 0 44-16 18 16 25-16 28 16 25-16 27 16 21-16m-120 0v-30l67 30m-67-30-45 30M438 151v118m-6 0h12m-6 0v15c0 9-11 9-11 2"/>
+      <path d="M238 152v18h31v-18" fill="#a58165"/>
+    </g>
+    <!-- Main commercial building, drawn as an architectural miniature. -->
+    <path d="m340 330 118-53 111 57-116 59Z" fill="#ddd0b8" stroke="#737967" stroke-width="1.5"/>
+    <path d="M340 330v233l113 69V393Z" fill="#c4b99f" stroke="#737967" stroke-width="1.5"/>
+    <path d="M453 393v239l116-63V334Z" fill="#e8dfcd" stroke="#737967" stroke-width="1.5"/>
+    <path d="m340 330 113 63 116-59m-211-13 97 53 94-43-94-47Z" stroke="#737967" stroke-width="1.5"/>
+    <path d="m352 352 89 48v202l-89-51Z" fill="url(#glass)"/>
+    <path d="m466 402 90-47v199l-90 50Z" fill="url(#windows)"/>
+    <g stroke="#888d78" stroke-width="1.3"><path d="m351 391 89 49m-89-10 89 49m-89-10 89 49m-89-10 89 49M466 441l90-46m-90 85 90-48m-90 87 90-49m-90 88 90-49"/></g>
+    <path d="m340 555 113 68 116-62v16l-116 64-113-69Z" fill="#888d77" stroke="#68725f"/>
+    <!-- Lower civic building with warm masonry and a colonnade. -->
+    <path d="m116 429 110-60 146 76-107 65Z" fill="#e2c6ae" stroke="#996e53" stroke-width="1.5"/>
+    <path d="m116 429 149 81v127l-149-88Z" fill="#cf9d7f" stroke="#996e53" stroke-width="1.5"/>
+    <path d="m265 510 107-65v128l-107 64Z" fill="#e4bba0" stroke="#996e53" stroke-width="1.5"/>
+    <path d="m104 423 161 87 120-70v16l-120 72-161-89Z" fill="#b97d5e" stroke="#996e53" stroke-width="1.5"/>
+    <path d="m105 422 119-65 161 83-120 70Z" fill="#eddbc5" stroke="#996e53" stroke-width="1.5"/>
+    <path d="m129 422 96-52 135 70-95 56Z" fill="#d2b69b" stroke="#ad8c6f"/>
+    <g fill="#826d57" stroke="#996e53" stroke-width="1.5">
+      <path d="M133 476v65l24 14v-65a17 17 0 0 0-24-14Zm39 22v65l24 14v-65a17 17 0 0 0-24-14Zm39 23v65l24 14v-65a17 17 0 0 0-24-14Z"/>
+      <path d="m284 545 18-11v60l-18 11Zm32-19 18-11v60l-18 11Z"/>
+    </g>
+    <path d="m111 550 154 91 111-66v13l-111 66-154-91Z" fill="#bb8869" stroke="#996e53"/>
+    <!-- Precinct roads and shared landscape. -->
+    <path d="m-26 579 100-46 371 224H236Z" fill="#dbd5c4"/>
+    <path d="m504 676 230-133v69L537 729Z" fill="#d7cfbd"/>
+    <path d="m-8 573 41-18 368 205m91-69 230-134" stroke="#9da08b" stroke-width="1.5"/>
+    <path d="m-9 590 364 212m169-83 210-122" stroke="#f2eee2" stroke-width="3" stroke-dasharray="14 12"/>
+    <path d="m-22 615 281 160" stroke="#a8ac94" stroke-width="2"/>
+    <path d="m396 689 59-34 40 23-59 35Z" fill="#a9af91" stroke="#7a856d"/>
+    <path d="m411 689 43-25 28 15-44 25Z" fill="#c2c4a9"/>
+    <!-- Indigenous-inspired trees. -->
+    <g stroke="#61735a" stroke-width="2" stroke-linecap="round">
+      <path d="M91 529v71m0-44-20-19m20 30 20-22M603 537v77m0-40-19-19m19 26 23-21M422 596v78m0-47-17-17m17 27 21-23M64 656v61m0-33-18-17"/>
+    </g>
+    <g fill="#8f9a77" stroke="#687957" stroke-width="1.2">
+      <path d="M53 522c-3-21 14-34 31-30 12-21 43-7 39 11 25 10 18 36-4 35-13 17-36 12-43 2-20 1-28-5-23-18Z"/>
+      <path d="M572 535c-8-17 6-36 25-30 12-21 38-8 35 10 24 7 22 31 1 35-12 18-40 13-46 0-15 2-22-6-15-15Z"/>
+      <path d="M390 596c-7-18 8-33 25-28 14-19 39-4 33 12 21 10 16 30-5 32-13 15-31 8-37-1-17 0-23-8-16-15Z"/>
+      <path d="M34 650c-2-17 11-29 26-24 14-18 33-5 31 10 19 7 13 26-1 29-11 12-29 10-34 0-15 2-25-2-22-15Z"/>
+    </g>
+    <g stroke="#b0b397" stroke-width="1.2"><path d="m571 659 21-12m-18 20 21-12M146 672l21 12m-15-21 25 14M479 591l15-9m-9 18 22-13M173 386l12-7m-2 13 13-7"/></g>
+    <path d="M0 0h720v760H0z" fill="url(#fine)" opacity=".34"/>
+  </g>
+  <path d="M42 700V329a318 318 0 0 1 636 0v371" stroke="#b6b19d" stroke-width="1"/>
+  <path d="M20 700h680" stroke="#777d68" stroke-width="1.3"/>
+  <path d="M30 717h16m-8-8v16m636-8h16m-8-8v16" stroke="#b28164" stroke-width="1.2"/>
+  <path d="M331 36h58m-29-29v58" stroke="#b69a7b" stroke-width="1" opacity=".6"/>
+</svg>
