@@ -4,9 +4,11 @@ A lightweight, responsive website concept for Metro Core Group (Pty) Ltd, based 
 
 ## Preview the website
 
-Open `index.html` in a browser, or use any static web server from this directory. No installation or build step is required.
+**[Open the live client preview](https://motloungseabelo-gif.github.io/metro-core-group-website/)**
 
-For a shareable live preview, enable **GitHub Pages** in the repository settings, choose **Deploy from a branch**, select **main** and **/ (root)**, and save. GitHub will display the live URL once deployment completes.
+![Metro Core Group website preview](preview.jpg)
+
+GitHub Pages is enabled from the `main` branch, `/ (root)`. Future commits to that branch update the preview automatically. For a local preview, open `index.html` in a browser or use any static web server. No installation or build step is required.
 
 ## What is included
 
@@ -42,6 +44,6 @@ The fonts' licence is included in `assets/font-license.txt`. Company content and
 
 ## Verification
 
-JavaScript syntax, local resource links, section anchors, IDs, form labels, ARIA references, SVGs, structured data and integrity of the original PDF were checked. Supported browser automation was unavailable in the creation environment, so browser-based layout and interaction testing remains outstanding.
+JavaScript syntax, local resource links, section anchors, IDs, form labels, ARIA references, SVGs, structured data and integrity of the original PDF were checked. After publication, live desktop rendering, service deep links, automatic service selection and project-brief generation were also verified in a browser. Phone layouts are implemented with responsive styles; testing on physical devices remains outstanding.
 
 The website includes noindex metadata while it is a client concept. Remove that restriction when the company approves a public launch.
